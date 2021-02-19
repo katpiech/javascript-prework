@@ -1,12 +1,3 @@
-Fullscreen
-MESSAGES
-TEXT
-VARIABLES
-MATH
-LOGIC
-INPUT
-FUNCTIONS
-MISC
 var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 /**
@@ -53,3 +44,4 @@ console.log('wylosowana liczba to: ' + randomNumber);
 computerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
+
