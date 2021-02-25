@@ -1,11 +1,11 @@
-var argButtonName, buttonPaper, buttonRock, buttonScissors;
+var argButtonName;
 
 /**
  * Describe this function...
  */
-buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
-buttonScissors = document.getElementById('button-scissors');
+const buttonRock = document.getElementById('button-rock'),
+      buttonPaper = document.getElementById('button-paper'),
+      buttonScissors = document.getElementById('button-scissors');
 
 function buttonClicked(argButtonName) {
   clearMessages();
